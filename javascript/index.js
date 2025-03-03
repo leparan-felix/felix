@@ -187,3 +187,16 @@ if (score >= 70) {
 // --> break keyword
 // --> syntax
 let applicantAge = 15;
+switch(
+applicantAge
+)
+{
+    case 1:
+        console.log('you are too young');
+        break;
+        case 2:
+            console.log('you are old');
+            break
+        default:
+        console.log('you are the right age');
+}
